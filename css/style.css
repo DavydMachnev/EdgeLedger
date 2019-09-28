@@ -26,6 +26,26 @@ p {
   padding: 0 2rem;
   overflow: hidden;
 }
+
+.list {
+  margin: .5rem 0;
+  list-style-type: none;
+}
+
+.list li {
+  padding: 0.5rem;
+  border-bottom: #444 dotted 1px;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
 .text-primary {
   color: #93cb52;
 }
@@ -49,6 +69,18 @@ p {
 .lead {
   font-size: 1.3rem;
   margin-bottom: 2rem;
+}
+
+.p-1 {
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
 }
 
 .py-1 {
@@ -149,4 +181,29 @@ p {
   padding: .7rem;
   border-radius: 50%;
   margin-bottom: 1rem;
+}
+
+/* Who We Are */
+#who {
+  display: flex;
+}
+
+#who div {
+  flex: 1;
+}
+
+#who .who-img {
+  background: url('../img/people.jpg') no-repeat center center/cover;
+}
+
+/* Clients */
+
+#clients .items {
+  display: flex;
+}
+
+#clients .items img {
+  display: block;
+  margin: auto;
+  width: 60%;
 }
